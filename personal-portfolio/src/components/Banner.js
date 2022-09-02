@@ -43,11 +43,13 @@ export const Banner = () =>{
     return(
         <section className="banner" id="home">
             <Container>
-                <TrackVisibility>
-                    {({ isVisible }) => 
+                
+                   
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                                <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
+                       <TrackVisibility>
+                            {({ isVisible }) => 
+                        <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
                             <span className="tagline">Welcome to my Portfolio!</span>
                             <h1>{`Hi I'm Jerome! `} <span className="wrap">{text}</span></h1>
                                     <p>I design and code beautifully simple things, skilled at writing well-designed,
@@ -55,15 +57,19 @@ export const Banner = () =>{
                                         hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools,  
                                         and I love what I do. </p>
                             <button onClick={() => console.log('connect')}> Let's connect <ArrowRightCircle size={25} /></button>
-                        </div>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                                <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
+                        <TrackVisibility>
+                            {({ isVisible }) => 
+                        <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
                             <img src={headerImg} alt="header img" />
-                        </div>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
-                </Row>}
-                </TrackVisibility>
+                </Row>
+                
             </Container>
         </section>
 
