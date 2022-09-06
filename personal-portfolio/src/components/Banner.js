@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from '../assets/img/pang_profile.png';
+import headerImg from '../assets/img/pang_profile3.png';
 import { useState, useEffect } from "react";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
@@ -63,7 +63,7 @@ export const Banner = () =>{
                     <Col xs={12} md={6} xl={5}>
                         <TrackVisibility>
                             {({ isVisible }) => 
-                        <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
+                        <div  className={isVisible ? "animate__animated animate__rubberBand" : ""}>
                             <img src={headerImg} alt="header img" />
                         </div>}
                         </TrackVisibility>

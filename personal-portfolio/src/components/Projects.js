@@ -8,9 +8,9 @@ import projImg2_1 from "../assets/img/Jigsaw1.png";
 import projImg2_2 from "../assets/img/Jigsaw2.png";
 import projImg2_3 from "../assets/img/Jigsaw3.png";
 
-import projImg3_1 from "../assets/img/project-img3.png";
-import projImg3_2 from "../assets/img/project-img3.png";
-import projImg3_3 from "../assets/img/project-img3.png";
+import projImg3_1 from "../assets/img/VidApp1.png";
+import projImg3_2 from "../assets/img/VidApp2.png";
+import projImg3_3 from "../assets/img/VidApp3.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -21,6 +21,7 @@ const projects = [
     {
         title: "BLOCKCHAIN WEBSITE",
         description: "Web 3.0 Blockchain website Development, React js and Tailwind css",
+        testLink:'',
         imgUrl: projImg1_1,
         imgUrl2: projImg1_2,
         imgUrl3: projImg1_3,
@@ -28,6 +29,7 @@ const projects = [
     {
         title: "MULTIPLAYER JIGSAW PUZZLE",
         description: "Multiplayer Game Development with integration of Photon Engine",
+        testLink: '',
         imgUrl: projImg2_1,
         imgUrl2: projImg2_2,
         imgUrl3: projImg2_3,
@@ -35,6 +37,7 @@ const projects = [
     {
         title: "VIDEO CONFERENCE APP",
         description: "Web Development, Group Video Chat Application with Messaging,Polls",
+        testLink: "https://jerome-project.netlify.app/2ec5d872-3d04-4bbc-be25-12f15abdccd9",
         imgUrl: projImg3_1,
         imgUrl2: projImg3_2,
         imgUrl3: projImg3_3,
